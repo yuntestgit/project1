@@ -1,0 +1,28 @@
+.roomRow {
+	width: 32.9rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.roomRow > .roomCol {
+	
+}
+
+.room {
+	cursor: default;
+	box-sizing: border-box;
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #e17f10;
+	color: #e17f10;
+	border-radius: 0.4em;
+	width: 4.3rem;
+	height: 2.5rem;
+	font-size: 0.7rem;
+	font-weight: 600;
+	text-align: right;
+	vertical-align: bottom;
+	line-height: 4.5;
+	padding-right:0.5rem;
+	margin: 10px;
+}

@@ -1,14 +1,3 @@
-// (function() {
-// 	function $(_selector) {
-// 		return document.querySelector ? document.querySelector(_selector) : null;
-// 	}
-
-// 	$('.sideMenu').addEventListener('click', function() {
-// 		$('.sideMenu').classList.toggle('open');
-// 		$('.sideMenu').classList.toggle('close');
-// 	});
-// })();
-
 (function($) {
 	function $$(_selector) {
 		return document.querySelector ? document.querySelector(_selector) : null;
@@ -17,15 +6,19 @@
 		return document.querySelectorAll ? document.querySelectorAll(_selector) : [];
 	}
 	
+	let multipleExpand = true; /* 多區塊展開 */
+	
 	var sideMenu_title = $$$('.sideMenu > .title');
 	for (var i = 0; i < sideMenu_title.length; i++) {
 		let sideMenu = sideMenu_title[i].parentNode;
 		if (!sideMenu.classList.contains('expanded')) {
-			$(sideMenu).find('ul').slideToggle(0);
+			$(sideMenu).find('ul').slideUp(0);
 		}
 		sideMenu_title[i].addEventListener('click', function() {
-			sideMenu.classList.toggle('expanded');
-			$(sideMenu).find('ul').slideToggle(400);
+			if (multipleExpand) {
+				sideMenu.classList.toggle('expanded');
+				$(sideMenu).find('ul').slideToggle(400);
+			}
 		});
 	}
 })(jQuery);
