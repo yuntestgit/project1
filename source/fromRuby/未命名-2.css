@@ -1,0 +1,21 @@
+@charset "utf-8";
+	.st0
+{
+	border-style : Solid;
+	border-color : #6DB86B;
+	border-color : rgba(109, 184, 107, 1);
+	border-width : 1px;
+	width : 77px;
+	height : 55px;
+}
+.st1
+{
+	background : #6CBF6D;
+	background : rgba(108, 191, 109, 1);
+	border-style : Solid;
+	border-color : #6DB86B;
+	border-color : rgba(109, 184, 107, 1);
+	border-width : 1px;
+	width : 30px;
+	height : 28px;
+}
