@@ -1,5 +1,6 @@
 .trapezoidNavbar {
 	font-size: 0;
+	min-width: 34rem;
 }
 
 .trapezoidNavbar > .item {
@@ -67,6 +68,7 @@
 .trapezoidNavbar > .item > .content > img {
 	margin-right: 0.25rem;
 	height: 1.5rem;
+	max-width: 2rem; /* width limit*/
 	vertical-align: middle;
 }
 

@@ -6,16 +6,18 @@
 	function $$$(_selector) {
 		return document.querySelectorAll ? document.querySelectorAll(_selector) : [];
 	}
-	$$('#setOrange').addEventListener('click', function() {
+	$$('#test > .setOrange').addEventListener('click', function() {
 		var sideMenu = $$$('.sideMenu');
 		for (var i = 0; i < sideMenu.length; i++) {
 			sideMenu[i].classList.remove('colorBlack');
+			sideMenu[i].classList.add('colorOrange');
 		}
 	});
 
-	$$('#setBlack').addEventListener('click', function() {
+	$$('#test > .setBlack').addEventListener('click', function() {
 		var sideMenu = $$$('.sideMenu');
 		for (var i = 0; i < sideMenu.length; i++) {
+			sideMenu[i].classList.remove('colorOrange');
 			sideMenu[i].classList.add('colorBlack');
 		}
 	});

@@ -110,16 +110,6 @@ body {
 	margin-bottom: 0px;
 }
 
-/* #region */
-.sideMenu.colorBlack > .title {
-	color: #000;
-}
-
-.sideMenu.colorBlack > ul > li {
-	color: #000;
-}
-/* #endregion */
-
 .bodyContainer > .main {
 	width: calc(100% - 300px);
 	background-color: #cfc;
