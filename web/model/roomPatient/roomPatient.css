@@ -35,6 +35,11 @@
 	padding-top: 0.9rem;
 }
 
+.room.alarm {
+	color: #fff;
+	background-color: #f66;
+}
+
 .room.active {
 	color: #fff;
 	background-color: #e17f10;
