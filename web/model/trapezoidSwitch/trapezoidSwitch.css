@@ -5,7 +5,7 @@
 }
 
 .trapezoidSwitch > .item {
-	height: 0.75rem;
+	height: 0.8rem;
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 2px;
@@ -37,22 +37,29 @@
 	padding:0.5em;
 }
 
-.trapezoidSwitch > .item > .content.left {
+.trapezoidSwitch > .item.left > .content {
 	clip-path: polygon(0% 0%, 99% 0%, 69% 100%, 0% 100%);
 	border-top-left-radius: 0.33rem;
 	border-bottom-left-radius: 0.33rem;
 	background-color: #fff;
 }
 
-.trapezoidSwitch > .item > .content.right {
+.trapezoidSwitch > .item.right > .content {
 	clip-path: polygon(31% 0%, 100% 0%, 100% 100%, 1% 100%);
 	border-top-right-radius: 0.33rem;
 	border-bottom-right-radius: 0.33rem;
+	background-color: #ec8200;
+}
+
+.trapezoidSwitch.on > .item.left > .content {
+	background-color: #ec8200;
+}
+.trapezoidSwitch.on > .item.right > .content {
 	background-color: #fff;
 }
 
+
 .trapezoidSwitch > .item > .content > .text {
-	width: 100%;
 	display: inline-block;
 	position: absolute;
 	font-size: 0.5rem;
@@ -64,7 +71,7 @@
 	padding: 0.05rem 0 0 0.25rem;
 }
 
-.trapezoidSwitch > .item > .content.right > .text {
+.trapezoidSwitch > .item.right > .content > .text {
 	font-size: 0.5rem;
 	padding: 0.075rem 0 0 0.35rem;
 }
