@@ -4,27 +4,112 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Sample</title>
+		<title>基本資料</title>
 		<!-- <link rel="icon" type="image/x-icon" href="yunjscss.ico" /> -->
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="info.css" />
 	</head>
 	
 	<body>
 		<div>
-			<div>
-				<img src="pic/thermometer.png" alt="體溫">
-				<div>體溫</div>
-				<div>%36.5%</div>
-				<div class="unit">°C</div>
-			</div>
-			
-			<div class="chartContainer"></div>
-			
-			<div class="data">
-				<div>
-					<div></div>
-					<div></div>
-				</div>
+			<div class="infoContainer">
+				<table class="infoTable">
+					<tr>
+						<td class="imgTd">
+							<img src="pic/thermometer.png" alt="體溫" />
+						</td>
+						
+						<td class="thermometerContainer inline-block-child-div">
+							<div class="item">體溫</div>
+							<div class="value">36.5</div>
+							<div class="unit">°C</div>
+						</td>
+						
+						<td>
+							<div class="chartContainer"></div>
+						</td>
+					</tr>
+					
+					<tr><td class="row-spacing"></td></tr>
+					
+					<tr>
+						<td class="imgTd vertical-align-top">
+							<img class="" src="pic/footprint.png" alt="腳印" />
+						</td>
+						
+						<td colspan="2">
+							<table class="data">
+								<tr>
+									<td class="th">體重</td>
+									<td class="value">%55%</td>
+									<td class="unit">kg</td>
+								</tr>
+								
+								<tr>
+									<td class="th">BMI</td>
+									<td class="value">%19%</td>
+									<td class="unit">kg/m³</td>
+								</tr>
+								
+								<tr>
+									<td class="th">PM₁₀濃度</td>
+									<td class="value">%48%</td>
+									<td class="unit">μg/m³</td>
+								</tr>
+								
+								<tr>
+									<td class="th">基礎代謝率</td>
+									<td class="value">%55%</td>
+									<td class="unit">kcal/日</td>
+								</tr>
+								
+								<tr>
+									<td class="th">身體年齡</td>
+									<td class="value">%19%</td>
+									<td class="unit">歲</td>
+								</tr>
+								
+								<tr>
+									<td class="th">生理等級</td>
+									<td class="value text-align-right"><div class="value borderColumn">等級</div></td>
+									<td class="unit"></td>
+								</tr>
+							</table>
+							
+							<table class="data">
+								<tr>
+									<td class="th">體脂肪</td>
+									<td class="value">%36.5%</td>
+									<td class="unit">%</td>
+								</tr>
+								
+								<tr>
+									<td class="th">內臟脂肪</td>
+									<td class="value">%36.5%</td>
+									<td class="unit">%</td>
+								</tr>
+								
+								<tr>
+									<td class="th">體水分</td>
+									<td class="value">%36.5%</td>
+									<td class="unit">%</td>
+								</tr>
+								
+								<tr>
+									<td class="th">肌肉量</td>
+									<td class="value">%36.5%</td>
+									<td class="unit">kg</td>
+								</tr>
+								
+								<tr>
+									<td class="th">骨量</td>
+									<td class="value">%36.5%</td>
+									<td class="unit">kg</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 		<!-- <script type="text/javascript" src="tool/jquery/jquery-3.4.1.min.js"></script> -->

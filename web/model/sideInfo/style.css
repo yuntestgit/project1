@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type: none;	
+}
+
+html {
+	font-size: 25px;
+	font-family: 微軟正黑體;
+}
+
+.sideInfo {
+	padding: 20px;
+	background-color: #cfc;
+	width: 200px;
+}

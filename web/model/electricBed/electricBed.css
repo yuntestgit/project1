@@ -1,0 +1,18 @@
+.movableRange {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	
+	background-color: #fcc;
+	margin: 200px;
+}
+
+.movableRange > .movableItem {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	
+	background-color: #cfc;
+}
