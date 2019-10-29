@@ -47,6 +47,13 @@
 .sideMenu.expanded > .title::after {
 	display: inline-block;
 }
+
+.sideMenu.btn > .title::before {
+	display: none;
+}
+.sideMenu.btn > .title::after {
+	display: none;
+}
 /* #endregion */
 
 .sideMenu > ul > li {
