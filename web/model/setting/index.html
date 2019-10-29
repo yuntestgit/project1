@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>設置</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="sortTable.css" />
+	</head>
+
+	<body>
+		<table class="sortTable">
+			<thead>
+				<tr>
+					<th>識別碼</th>
+					<th>設備名稱</th>
+					<th>頭部角度</th>
+					<th>腳部角度</th>
+					<th>整床高度</th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>jaygateway</td>
+					<td>jaybed</td>
+					<td>暫無</td>
+					<td>暫無</td>
+					<td>暫無</td>
+					<td><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>Mac</td>
+					<td>asd</td>
+					<td>暫無</td>
+					<td>暫無</td>
+					<td>暫無</td>
+					<td><button>設定</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="msgbox">
+			<div class="title">告警值</div>
+			<div class="content">
+				<div>
+					<label>頭部角度：<input type="text" /></label>
+					<label><input type="checkbox" /><span>不設定</span></label>
+				</div>
+
+				<div>
+					<label>腳部角度：<input type="text" /></label>
+					<label><input type="checkbox" /><span>不設定</span></label>
+				</div>
+
+				<div>
+					<label>整床高度：<input type="text" /></label>
+					<label><input type="checkbox" /><span>不設定</span></label>
+				</div>
+			</div>
+			<div class="operatingArea">
+				<button>確認</button>
+				<button class="negative">取消</button>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../../tool/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="listTable.js"></script>
+	</body>
+</html>

@@ -1,0 +1,117 @@
+.sortTable {
+	/* border: 1px solid #fcc;	 */
+	border-spacing: 0px;
+
+	width: 100%;
+
+	text-align: left;
+}
+
+th {
+	font-size: 0.85rem;
+	height: 1.6rem;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+td {
+	font-size: 0.65rem;
+	height: 1.4rem;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+tr:last-child > td,
+th {
+	border-bottom: 2px solid #e17f10;
+}
+
+button {
+	background-color: #ec8200;
+	color: #fff;
+	font-size: 0.6rem;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	padding: 0.1rem 0.8rem;
+	border-radius: 15px;
+}
+
+button.negative {
+	background-color: #999;
+	color: #fff;
+	font-size: 0.6rem;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	padding: 0.1rem 0.8rem;
+	border-radius: 15px;
+}
+
+.msgbox {
+	position: fixed;
+	box-sizing: border-box;
+	width: 520px;
+	height: 270px;
+	left: calc(50% - 200px);
+	top: calc(50% - 150px);
+	border-radius: 20px;
+	background-color: #fae9de;
+	border: 3px solid #ec8200;
+	padding: 15px;
+}
+
+.msgbox > .title {
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.msgbox > .title::before {
+	position: absolute;
+}
+
+.msgbox > .content {
+	display: flex;
+	flex-direction: column;
+	font-size: 0.8rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.1rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 2px solid #ec8200;
+	border-bottom: 2px solid #ec8200;
+}
+
+.msgbox > .content > div {
+	height: 2rem;
+}
+
+.msgbox > .content > div::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	width: 0;
+	vertical-align: middle;
+}
+
+.msgbox > .content > div > * {
+	vertical-align: middle;
+}
+
+.msgbox > .content input[type='text'] {
+	width: 300px;
+}
+
+.msgbox > .content input[type='checkbox'] ~ span {
+	font-size: 0.7rem;
+	color: #808080;
+}
+
+.msgbox > .operatingArea {
+	height: 30px;
+	text-align: right;
+}
+
+.msgbox > .operatingArea > button {
+	display: inline-block;	
+}

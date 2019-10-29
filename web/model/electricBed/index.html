@@ -5,17 +5,81 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>movableRange</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
 		<link rel="stylesheet" type="text/css" href="electricBed.css" />
 	</head>
-	
+
 	<body>
 		<div class="movableRange">
 			<div class="movableItem"></div>
 		</div>
-		
-		<div class="trackbar">
-			<div class="track"></div>
-			<div class="slider"></div>
+
+		<div class="container">
+			<div class="bed">
+				<img src="pic/bed.png" alt="床" />
+			</div>
+
+			<div class="operatingArea">
+				<div class="scrollItem">
+					<div class="left">
+						<div class="scrollbar movableRange">
+							<div class="track"></div>
+							<div class="slider movableItem direction-x limit-x"></div>
+						</div>
+						
+						<div class="scrollbarRange">
+							<div class="min">0</div>
+							<div class="max">66</div>
+						</div>
+						
+						<div class="scrollbarValue">46</div>
+					</div>
+					<div class="right"><img src="pic/head.png" alt="頭" /></div>
+				</div>
+
+				<div class="scrollItem">
+					<div class="left">
+						<div class="scrollbar movableRange">
+							<div class="track"></div>
+							<div class="slider movableItem direction-x limit-x"></div>
+						</div>
+						
+						<div class="scrollbarRange">
+							<div class="min">0</div>
+							<div class="max">28</div>
+						</div>
+						
+						<div class="scrollbarValue">8</div>
+					</div>
+					<div class="right"><img src="pic/foot.png" alt="腳" /></div>
+				</div>
+
+				<div class="scrollItem">
+					<div class="left">
+						<div class="scrollbar movableRange">
+							<div class="track"></div>
+							<div class="slider movableItem direction-x limit-x"></div>
+						</div>
+						
+						<div class="scrollbarRange">
+							<div class="min">0</div>
+							<div class="max">35</div>
+						</div>
+						
+						<div class="scrollbarValue">17</div>
+					</div>
+					<div class="right"><img src="pic/body.png" alt="身體" /></div>
+				</div>
+
+				<button class="btn">往前傾斜</button>
+				<button class="btn">往後傾斜</button>
+			</div>
+
+			<div class="charts">
+				<div class="fusionchart"></div>
+				<div class="fusionchart"></div>
+				<div class="fusionchart"></div>
+			</div>
 		</div>
 		<script type="text/javascript" src="electricBed.js"></script>
 	</body>

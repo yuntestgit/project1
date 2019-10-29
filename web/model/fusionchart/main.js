@@ -161,6 +161,13 @@ FusionCharts.ready(function() {
 		dataSource: {
 			// Chart Configuration
 			chart: {
+				baseFontSize: "50",
+				baseFontColor: "#f00",
+				
+				// outCnvBaseFont: "Arial",
+				// outCnvBaseFontSize: "50",
+				// outCnvBaseFontColor: "#633563",
+				
 				caption: 'Countries With Most Oil Reserves [2017-18]',
 				subCaption: 'In MMbbl = One Million barrels',
 				xAxisName: 'Country',
@@ -211,7 +218,7 @@ FusionCharts.ready(function() {
 		type: 'column2d',
 		renderAt: 'fusioncharts2',
 		width: '100%',
-		height: '300',
+		height: '100%',
 		dataFormat: 'json',
 		dataSource: {
 			// Chart Configuration
