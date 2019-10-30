@@ -1,0 +1,21 @@
+button {
+	background-color: #ec8200;
+	color: #fff;
+	font-size: 0.6rem;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	padding: 0.1rem 0.8rem;
+	border-radius: 15px;
+}
+
+button.negative {
+	background-color: #999;
+	color: #fff;
+	font-size: 0.6rem;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	padding: 0.1rem 0.8rem;
+	border-radius: 15px;
+}

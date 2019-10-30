@@ -6,68 +6,624 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>設置</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="controller.css" />
 		<link rel="stylesheet" type="text/css" href="sortTable.css" />
+		<link rel="stylesheet" type="text/css" href="msgbox.css" />
 	</head>
 
 	<body>
 		<table class="sortTable">
 			<thead>
 				<tr>
-					<th>識別碼</th>
-					<th>設備名稱</th>
-					<th>頭部角度</th>
-					<th>腳部角度</th>
-					<th>整床高度</th>
+					<th>
+						識別碼
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						設備名稱
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						頭部角度
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						腳部角度
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						整床高度
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
 					<th></th>
 				</tr>
 			</thead>
 
 			<tbody>
 				<tr>
-					<td>jaygateway</td>
+					<td>0</td>
 					<td>jaybed</td>
-					<td>暫無</td>
-					<td>暫無</td>
-					<td>暫無</td>
-					<td><button>設定</button></td>
+					<td>74</td>
+					<td>89</td>
+					<td>489</td>
+					<td class="operatingTd"><button>設定</button></td>
 				</tr>
 
 				<tr>
-					<td>Mac</td>
+					<td>1</td>
 					<td>asd</td>
-					<td>暫無</td>
-					<td>暫無</td>
-					<td>暫無</td>
-					<td><button>設定</button></td>
+					<td>254</td>
+					<td>56</td>
+					<td>543</td>
+					<td class="operatingTd"><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td>fghbdxf</td>
+					<td>44</td>
+					<td>73</td>
+					<td>666</td>
+					<td class="operatingTd"><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>7</td>
+					<td>gjukgdgfhb</td>
+					<td>38</td>
+					<td>22</td>
+					<td>777</td>
+					<td class="operatingTd"><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>15</td>
+					<td>ilk78ysv</td>
+					<td>81</td>
+					<td>98</td>
+					<td>789</td>
+					<td class="operatingTd"><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>4</td>
+					<td>zrdghrfj</td>
+					<td>92</td>
+					<td>71</td>
+					<td>456</td>
+					<td class="operatingTd"><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>ofdhgfnfg</td>
+					<td>87</td>
+					<td>3</td>
+					<td>123</td>
+					<td class="operatingTd"><button>設定</button></td>
+				</tr>
+
+				<tr>
+					<td>6</td>
+					<td>kfdhrdbher</td>
+					<td>14</td>
+					<td>187</td>
+					<td>62</td>
+					<td class="operatingTd"><button>設定</button></td>
 				</tr>
 			</tbody>
 		</table>
 
+		<table class="sortTable">
+			<thead>
+				<tr>
+					<th>
+						識別碼
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						設備名稱
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						頭部角度
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						腳部角度
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th>
+						整床高度
+						<div class="sortIcon">
+							<img src="pic/none.png" alt="none" />
+							<img src="pic/asc.png" alt="asc" />
+							<img src="pic/desc.png" alt="desc" />
+						</div>
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td>jaybed</td>
+					<td>74</td>
+					<td>89</td>
+					<td>489</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>1</td>
+					<td>asd</td>
+					<td>254</td>
+					<td>56</td>
+					<td>543</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td>fghbdxf</td>
+					<td>44</td>
+					<td>73</td>
+					<td>666</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>7</td>
+					<td>gjukgdgfhb</td>
+					<td>38</td>
+					<td>22</td>
+					<td>777</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>15</td>
+					<td>ilk78ysv</td>
+					<td>81</td>
+					<td>98</td>
+					<td>789</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>4</td>
+					<td>zrdghrfj</td>
+					<td>92</td>
+					<td>71</td>
+					<td>456</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>ofdhgfnfg</td>
+					<td>87</td>
+					<td>3</td>
+					<td>123</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+
+				<tr>
+					<td>6</td>
+					<td>kfdhrdbher</td>
+					<td>14</td>
+					<td>187</td>
+					<td>62</td>
+					<td class="operatingTd"><button>修改</button><button class="negative">刪除</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<button id="addFloor">新增樓層</button>
+		<button id="addRoom">新增房號</button>
+
+		<button id="addAlarm">新增告警</button>
+
+		<button id="addGateway">新增閘道器</button>
+		<button id="addBed">新增電動床</button>
+
+		<button id="addUser">新增使用者</button>
+		<button id="addGroup">新增群組</button>
+		<button id="addAccount">新增帳號</button>
+
+		<!--floor-->
 		<div class="msgbox">
-			<div class="title">告警值</div>
-			<div class="content">
-				<div>
-					<label>頭部角度：<input type="text" /></label>
-					<label><input type="checkbox" /><span>不設定</span></label>
+			<div class="box">
+				<div class="title">新增樓層</div>
+				<input class="active" type="hidden" value="['addFloor']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>新增樓層：<input type="text"/></label>
+					</div>
 				</div>
-
-				<div>
-					<label>腳部角度：<input type="text" /></label>
-					<label><input type="checkbox" /><span>不設定</span></label>
-				</div>
-
-				<div>
-					<label>整床高度：<input type="text" /></label>
-					<label><input type="checkbox" /><span>不設定</span></label>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
 				</div>
 			</div>
-			<div class="operatingArea">
-				<button>確認</button>
-				<button class="negative">取消</button>
+		</div>
+
+		<!--room-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">新增房號</div>
+				<input class="active" type="hidden" value="['addRoom']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>新增房號：<input type="text"/></label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!--alarm-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">告警值</div>
+				<input class="active" type="hidden" value="['addAlarm']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>頭部角度：<input type="text"/></label>
+						<label><input type="checkbox" /><span>不設定</span></label>
+					</div>
+
+					<div>
+						<label>腳部角度：<input type="text"/></label>
+						<label><input type="checkbox" /><span>不設定</span></label>
+					</div>
+
+					<div>
+						<label>整床高度：<input type="text"/></label>
+						<label><input type="checkbox" /><span>不設定</span></label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!--gateway-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">新增閘道器</div>
+				<input class="active" type="hidden" value="['addGateway']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>
+							<div>識別碼：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>名稱：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>描述：</div>
+							<input type="text" />
+						</label>
+					</div>
+					<div>
+						<label>
+							<div>樓層：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>房號：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>連接裝置-1：</div>
+							<input type="text" />
+						</label>
+					</div>
+					<div>
+						<label>
+							<div>連接裝置-2：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>連接裝置-3：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>連接裝置-4：</div>
+							<input type="text" />
+						</label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!--bed-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">新增電動床</div>
+				<input class="active" type="hidden" value="['addBed']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>
+							<div>識別碼：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>名稱：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>描述：</div>
+							<input type="text" />
+						</label>
+					</div>
+					<div>
+						<label>
+							<div>樓層：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>房號：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>服務UUID：</div>
+							<input type="text" />
+						</label>
+					</div>
+					<div>
+						<label>
+							<div>服務UUID：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>服務UUID：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>服務UUID：</div>
+							<input type="text" />
+						</label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!--user-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">新增使用者</div>
+				<input class="active" type="hidden" value="['addUser']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>
+							<div>病歷號：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>姓名：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>電子信箱：</div>
+							<input type="text" />
+						</label>
+					</div>
+					<div>
+						<label>
+							<div>連絡電話：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>樓層：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>房號：</div>
+							<input type="text" />
+						</label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!--group-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">新增使用者</div>
+				<input class="active" type="hidden" value="['addGroup']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>
+							<div>群組名稱：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>群組種類：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>選擇設備：</div>
+							<input type="text" />
+						</label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!--account-->
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">新增帳號</div>
+				<input class="active" type="hidden" value="['addAccount']" />
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<label>
+							<div>帳號：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>密碼：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>姓名：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>電子信箱：</div>
+							<input type="text" />
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<div>聯絡電話：</div>
+							<input type="text" />
+						</label>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>確認</button>
+					<button class="negative">取消</button>
+				</div>
 			</div>
 		</div>
 
 		<script type="text/javascript" src="../../tool/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="listTable.js"></script>
+		<script type="text/javascript" src="msgbox.js"></script>
+		<script type="text/javascript" src="sortTable.js"></script>
 	</body>
 </html>
