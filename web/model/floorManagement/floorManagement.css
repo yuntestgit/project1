@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+html {
+	font-size: 25;	
+}
+
+.floor > .operating,
+.floor > .roomGroup {
+	display: block;	
+}
+
+.floor > .operating > .floorName {
+	color: #f00;
+}
+
+.floor > .operating > * {
+	display: inline-block;	
+}
+
+.roomGroup .roomName {
+	width: 4rem;
+	height: 3rem;
+	
+	border: 2px solid #f00;
+	border-radius: 10px;
+}
+.deleteRoom {
+	
+}

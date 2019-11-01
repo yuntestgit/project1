@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>護聯網平台</title>
+		<link rel="icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="login.css" />
+		<link rel="stylesheet" type="text/css" href="../../controller.css" />
+		<link rel="stylesheet" type="text/css" href="msgbox.css" />
+	</head>
+
+	<body>
+		<div class="bg-container">
+			<img class="noselect bg" src="pic/bg.png" />
+			<img class="noselect bg-mobile" src="pic/bg-mobile.png" />
+			<div class="login-form">
+				<div class="middle">
+					<div class="h2">使用者登入</div>
+					<div class="h3">帳號</div>
+					<div><input id="account" type="text" /></div>
+					<div class="h3">密碼</div>
+					<div><input id="password" type="password" /></div>
+					<div class="h4">忘記密碼</div>
+					<button class="btn">登入</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="msgbox">
+			<div class="box">
+				<div class="title">無法登入？</div>
+				<div class="close"></div>
+				<div class="content">
+					<div>
+						<div>遇上無法登入請嘗試以下幾點</div>
+						<div>1.密碼大小寫輸入錯誤</div>
+						<div>2.確認所屬使用網路環境</div>
+						<div>3.該帳號已登入完成</div>
+						<div>4.帳號未註冊</div>
+						<div>5.確認帳戶是否經過信箱驗證完成，會員必需驗證後，才可以登入</div>
+						<div>&nbsp;</div>
+						<div>如嘗試以上問題依然存在請提供</div>
+						<div>1.帳戶、註冊信箱</div>
+						<div>發送郵件至service@rsx.com.tw，將有專人為您處理。</div>
+					</div>
+				</div>
+				<div class="operatingArea">
+					<button>重新登入</button>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="../../tool/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="login.js"></script>
+		<script type="text/javascript" src="msgbox.js"></script>
+	</body>
+</html>
